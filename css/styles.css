@@ -1,0 +1,80 @@
+/* Reset Rule */
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+	background: rgb(222,131,57);
+}
+
+header {
+	font-size: 200%;
+}
+
+header h1 {
+	color: white;
+	float: right;
+	padding-right: 7.5%;
+}
+
+header p{
+	color: white;
+	padding-left: 6%;
+}
+
+#wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+
+
+#main {
+	background: url(../images/cafe_big.jpg);
+	background-size: cover;
+	height: 650px;
+}
+
+article {
+	color:white;
+}
+
+#main li {
+	list-style-type: none;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+	float: left;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.menu_item_box .content {
+	width: 33.33%;
+	float: left;
+	color:white;
+}
+
+.menu_item {
+	
+}
+
+.menu_item .one .picture {
+	
+	background: url();
+	height: 200px;
+}
+
+
+.menu_item .picture {
+	display: block;
+	height: 200px;
+	background: url(../images/Vanila_Ice-Cream_and_Pancakes.png);
+	background-position: center;
+}
