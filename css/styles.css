@@ -9,13 +9,19 @@ body{
 	background: rgb(222, 156, 57);
 }
 
+#wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+
 header {
 	font-size: 200%;
+	text-align: center;
 }
 
 header h1 {
 	color: white;
-	float: right;
 	padding-right: 7.5%;
 }
 
@@ -24,17 +30,12 @@ header p{
 	padding-left: 6%;
 }
 
-#wrapper {
-	width: 85%;
-	margin: 0 auto;
-}
-
 
 
 #main {
 	background: url(../images/cafe_big.jpg);
 	background-size: cover;
-	height: 650px;
+	height: 100vh;
 }
 
 article {
